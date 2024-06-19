@@ -1,0 +1,150 @@
+/* General styles */
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background styles */
+.background-container {
+    background-image: url("/highway.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Transparent Navbar styles */
+.navbar {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav a {
+    font-size: 20px; /* Increase font size */
+    margin: 0 10px; /* Add spacing between links */
+    transition: all 0.3s ease; /* Add smooth transition */
+}
+
+.navbar-nav a:hover {
+    color:rgb(12, 12, 11); /* Change color on hover */
+    border-radius: 20px;
+    background-color: grey;
+    /* border: 3px solid blue; */
+    
+}
+
+.dropdown-menu {
+    background-color: #333;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+/* Form styles */
+.register-form-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 70px; /* Adjust this value based on navbar height */
+}
+
+.col-md-8 {
+    max-width: 600px;
+    width: 100%;
+}
+
+.card.transparent-form {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    margin-right: auto; /* Adjust this to control form's horizontal position */
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+
+.lk {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #1f2e2e;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #3b4b4b;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+    color: #1f2e2e;
+}
+
+.text-decoration-none:hover {
+    color: #fff;
+}
+
+/* Form input styles */
+.form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.form-control:focus {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #555;
+}
+.navbar-brand img{
+    width: 100px;
+    height: 40px;
+    
+}
+DropdownButton .ml-auto{
+    color: orange;
+}
